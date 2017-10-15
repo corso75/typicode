@@ -7,6 +7,7 @@ m.request('db').then(function(data) {
   db = data
 })
 
+//just an empty line
 m.mount(document.getElementById('resources'), {
   view: function() {
     var keys = Object.keys(db)
